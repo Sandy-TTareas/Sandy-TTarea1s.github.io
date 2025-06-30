@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReinadelDulceySabor.pe/PromocionesyNovedades</title>
+    <!--Icon-->
+    <link rel="icon" href="Recursos/logo.png" type="image/x-icon">
+    <!--Fuente de titulos y encabezados-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600;700&display=swap">
+    <!--Estilos link externo-->
+    <link rel="stylesheet" href="Estilos/EsPromos.css">
+    <!--Link de iconos a usar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-regular.css">
+</head>
+<body>
+    <!--Barra superior-->
+    <div class="barra-superior" id="barraSuperior">
+        <p><i class="fa-regular fa-cart-shopping-fast"></i> <a href="Catalogo.html">PROGRAMA TU PEDIDO DESDE NUESTRO CATALOGO</a></p>
+    </div>
+
+    <!--Sección encabezado-->
+    <header class="encabezado">
+        <!-- Logo a la izquierda -->
+        <div class="en-logo">
+            <a href="index.html">
+                <img src="Recursos/logo.png" alt="logo pasteleria">
+            </a>
+        </div>
+        <!-- Menú central con íconos -->
+        <nav class="en-menu">
+            <a href="index.html" class="activo">
+                <div class="icono">
+                    <i class="fa-regular fa-house-blank"></i>
+                    <i class="fa-solid fa-house-blank"></i>
+                </div>
+                <div class="titulo">
+                    Inicio
+                </div>
+            </a>
+            <a href="Nosotros.html">
+                <div class="icono">
+                    <i class="fa-regular fa-users"></i>
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="titulo">
+                    Nosotros
+                </div>
+            </a>
+            <a href="Catalogo.html">
+                <div class="icono">
+                    <i class="fa-regular fa-book-open-reader"></i>
+                    <i class="fa-solid fa-book-open-reader"></i>
+                </div>
+                <div class="titulo">
+                    Catalogo
+                </div>
+            </a>
+            <a href="Contacto.html">
+                <div class="icono">
+                    <i class="fa-regular fa-address-book"></i>
+                    <i class="fa-solid fa-address-book"></i>
+                </div>
+                <div class="titulo">
+                    Contacto
+                </div>
+            </a>
+            <a href="Promos.html">
+                <div class="icono">
+                    <i class="fa-regular fa-badge-percent"></i>
+                    <i class="fa-solid fa-badge-percent"></i>
+                </div>
+                <div class="titulo">
+                    Promociones
+                </div>
+            </a>
+            <a href="Blog.html">
+                <div class="icono">
+                    <i class="fa-regular fa-comment-pen"></i>
+                    <i class="fa-solid fa-comment-pen"></i>
+                </div>
+                <div class="titulo">
+                    Blog
+                </div>
+            </a>
+        </nav>
+
+        <!-- Iconos de acciones a la derecha -->
+        <div class="en-acciones">
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-regular fa-cart-shopping"></i></a>
+        </div>
+
+    </header>
+
+    <!---Contenido principal de promocionees-->
+    <main class="contenido-principal">
+        <h1>Promociones y Novedades</h1>
+        <p>Descubre lo más dulce del momento, productos de temporada y sorpresas especiales</p>
+
+        <section class="promos">
+            <div class="contenedor-filtros">
+                <div class="filtro-busqueda">
+                    <input type="text" id="buscar" placeholder="Buscar promoción...">
+                </div>
+
+                <div class="filtro-orden">
+                    <select id="ordenar" name="ordenar" aria-label="Ordenar productos">
+                        <option value="predeterminado">Orden predeterminado</option>
+                        <option value="az">Nombre: A-Z</option>
+                        <option value="za">Nombre: Z-A</option>
+                        <option value="popular">Más populares</option>
+                        <option value="reciente">Más recientes</option>
+                        <option value="mayor">Mayor descuento</option>
+                        <option value="menor">Menor descuento</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="contenedor-promos">
+
+                <div class="promo" data-id="pro0" data-nombre="Pack Cumpleañero Mini" data-precio-regular="115" data-precio-promo="95" data-fecha="2025-06-01" data-popularidad="120">
+       
+                    <!-- Imagen -->
+                    <div class="imagen-producto">
+                        <img src="Recursos/Promociones/promo0.jpg" alt="v1" class="producto-imagen">
+
+                        <!--Funciones Me gusta y guardar-->
+                        <button class="megusta"><i class="fa-solid fa-heart"></i></button>
+                        <button class="guardar"><i class="fa-solid fa-bookmark"></i></button>
+                    </div>
+
+                    <div class="producto-info">
+                        <h3>Pack Cumpleañero Mini</h3>
+                        <p class="descripcion">
+                            Ideal para celebraciones pequeñas.
+                        </p>
+                            
+                        <ul> Incluye:
+                            <li>1 torta mediana de vainilla o fresa con dedicatoria personalizada</li>
+                            <li>4 cupcakes decorados</li>
+                            <li>4 galletas temáticas</li>
+                        </ul>
+                        
+                        <div class="precios">
+                            <h5>Precio Regular:</h5>
+                            <p class="precioregular"> S/ 115.00</p>
+                            <h5>Precio Promocional:</h5>
+                            <p class="preciopromo">S/ 95.00</p>
+                        </div>
+                        <p class="nota"><i class="fa-solid fa-calendar-week"></i> Válido todo junio 2025</p>
+                        <div class="whishlist">
+                            <button>Añadir al WishList  <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="promo" data-id="pro1" data-nombre="Semana del Cupcake" data-precio-regular="8" data-precio-promo="6.4"  data-fecha="2025-10-01"  data-popularidad="200">
+                    
+                    <!-- Imagen -->
+                    <div class="imagen-producto">
+
+                        <img src="Recursos/Promociones/promo1.jpg" alt="v1" class="producto-imagen">
+
+                        <!--Funciones Me gusta y guardar-->
+                        <button class="megusta"><i class="fa-solid fa-heart"></i></button>
+                        <button class="guardar"><i class="fa-solid fa-bookmark"></i></button>
+                    </div>
+
+                    <div class="producto-info">
+                        <h3>Semana del Cupcake</h3>
+                        <p class="descripcion">
+                            20% de descuento en todos los cupcakes decorados.
+                            Elige entre vainilla, chocolate, red velvet o temática especial.
+                        </p>
+                        <div class="precios">
+                            <h5>Precio Regular:</h5>
+                            <p class="precioregular">S/ 6.00 – S/ 8.00</p>
+                            <h5>Precio Promocional:</h5>
+                            <p class="preciopromo">S/ 4.80 – S/ 6.40</p>
+                        </div>
+                        <p class="nota"><i class="fa-solid fa-calendar-week"></i> Solo del 1 al 7 de Octubre 2025</p>
+                        <div class="whishlist">
+                            <button>Añadir al WishList  <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="promo" data-id="pro2" data-nombre="Pack Sorpresa Dulce" data-precio-regular="26" data-precio-promo="20.8" data-fecha="2025-08-01" data-popularidad="150">
+
+                    
+                    <!-- Imagen -->
+                    <div class="imagen-producto">
+
+                        <img src="Recursos/Promociones/promo2.jpg" alt="v1" class="producto-imagen">
+
+                        <!--Funciones Me gusta y guardar-->
+                        <button class="megusta"><i class="fa-solid fa-heart"></i></button>
+                        <button class="guardar"><i class="fa-solid fa-bookmark"></i></button>
+                    </div>
+
+                    <div class="producto-info">
+                        <h3>Pack Sorpresa Dulce</h3>
+                        <p class="descripcion">
+                            Ideal para sorprender a los pequeños.
+                        </p>
+
+                        <ul> Incluye:
+                            <li>2 mini postres en vaso (a elección)</li>
+                            <li>2 alfajores de maicena</li>
+                            <li>1 cupcake decorado</li>
+                        </ul>
+                        
+                        <div class="precios">
+                            <h5>Precio Regular:</h5>
+                            <p class="precioregular">S/ 26.00</p>
+                            <h5>Precio Promocional:</h5>
+                            <p class="preciopromo">S/ 20.80</p>
+                        </div>
+                        <p class="nota"><i class="fa-solid fa-calendar-week"></i> Del 1 al 17 de agosto 2025 (por Día del Niño)</p>
+                        <div class="whishlist">
+                            <button>Añadir al WishList  <i class="fa-solid fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!--Pie de pagina-->
+    <footer class="pie">
+        <div class="cabecera">
+            <div class="logo">
+                <img src="Recursos/logo.png" alt="logo">
+                <p>Reina del Dulce y Sabor</p>
+                
+            </div>
+            <div class="redes">
+                <span><a href="https://www.facebook.com/people/Reina-del-Dulce-y-Sabor-Pasteler%C3%ADa-Artesanal/61576672571630/"><i class="fa-brands fa-facebook-f"></i></a></span>
+                <span><a href="https://wa.me/qr/HN2QHNCZUMTKE1"><i class="fa-brands fa-whatsapp"></i></a></span>
+                <span><a href="mailto:reinadeldulceysabor@gmail.com"><i class="fa-regular fa-envelope"></i></a></span>
+                <span><a href="https://www.instagram.com/reina.deldulceysabor/?utm_source=ig_web_button_share_sheet"><i class="fa-brands fa-instagram"></i></a></span>
+            </div>
+        </div>
+        <hr>
+        <div class="seccion">
+            <div>
+                <h2>Acerca de Nosotros</h2>
+                <ul>
+                    <li><strong>Horario:</strong></li>
+                    <li>Lunes a sábado: 9:00 a.m. a 7:00 p.m.</li>
+                    <li>Domingo: Solo pedidos programados</li>
+                    <li><strong>Dirección:</strong></li>
+                    <li>Los Angeles 15836, Villa el Salvador, Perú</li>
+                    <li><strong>Contacto:</strong></li>
+                    <li>Telf: +51 902 094 016</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Secciones</h2>
+                <a href="index.html">Inicio</a>
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Catalogo.html">Catálogo</a>
+                <a href="Contacto.html">Contacto</a>
+                <a href="Promos.html">Promociones</a>
+                <a href="Blog.html">Blog</a>
+            </div>
+
+            <div>
+                <h2>Catálogo de Productos</h2>
+                <a href="Categoria1.html">Tortas y Pasteles</a>
+                <a href="Categoria2.html">Cupcakes y Mini Postres</a>
+                <a href="Categoria3.html">Galletas y Alfajores</a>
+                <a href="Categoria4.html">Bollería y Panadería Dulce</a>
+                <a href="Categoria5.html">Postres Tradicionales</a>
+                <a href="Categoria6.html">Cajas y Regalos</a>
+                <a href="Categoria7.html">Eventos Especiales</a>
+            </div>
+            
+            <div>
+                <h2>Información</h2>
+                <a href="">Términos y Condiciones</a>
+                <a href="">Política de Privacidad</a>
+                <a href="">Política de Suscripción de Notificaciones</a>
+                <a href="">Política de Entregas</a>
+                <a href="">Política de Cambios y Devoluciones</a>
+                <p><a href="">Libro de Reclamaciones</a><i class="fa-regular fa-book-open"></i></p>
+            </div>
+
+            <div>
+                <h2>Cuenta</h2>
+                <a href="">Perfil</a>
+                <a href="">Lista de deseos</a>
+                <a href="">Guardado</a>
+                <a href="">Me gusta</a>
+                <a href="">Información personal</a>
+                <a href="">Historial</a>
+            </div>
+
+            
+                
+            <div>
+                <h2>Notificaciones</h2>
+                <form action="">
+                    <input type="text" placeholder="Correo electrónico">
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+        <!-- Derechos reservados -->
+        <div class="derechos">
+            <p><i class="fa-regular fa-copyright"></i>2025 Pastelería Reina del Dulce y Sabor | Realizado por la estudiante: Sandy Tello. Todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+
+    <!--JavaScripT funciones-->
+    <script src="Acciones/AccPromos.js"></script>
+</body>
+</html>

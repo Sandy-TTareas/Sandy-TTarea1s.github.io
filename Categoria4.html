@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BolleriayPanDulce</title>
+    <!--Icon-->
+    <link rel="icon" href="Recursos/logo.png" type="image/x-icon">
+    <!--Fuente de titulos y encabezados-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600;700&display=swap">
+    <!--Estilos link externo-->
+    <link rel="stylesheet" href="Estilos/EsCate4.css">
+    <!--Link de iconos a usar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-regular.css">
+
+</head>
+<body>
+    
+    <!--Barra superior-->
+    <div class="barra-superior" id="barraSuperior">
+        <p><i class="fa-regular fa-cart-shopping-fast"></i> <a href="Catalogo.html">PROGRAMA TU PEDIDO DESDE NUESTRO CATALOGO</a></p>
+    </div>
+
+    <!--Sección encabezado-->
+    <header class="encabezado">
+        <!-- Logo a la izquierda -->
+        <div class="en-logo">
+            <a href="index.html">
+                <img src="Recursos/logo.png" alt="logo pasteleria">
+            </a>
+        </div>
+        <!-- Menú central con íconos -->
+        <nav class="en-menu">
+            <a href="index.html" class="activo">
+                <div class="icono">
+                    <i class="fa-regular fa-house-blank"></i>
+                    <i class="fa-solid fa-house-blank"></i>
+                </div>
+                <div class="titulo">
+                    Inicio
+                </div>
+            </a>
+            <a href="Nosotros.html">
+                <div class="icono">
+                    <i class="fa-regular fa-users"></i>
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="titulo">
+                    Nosotros
+                </div>
+            </a>
+            <a href="Catalogo.html">
+                <div class="icono">
+                    <i class="fa-regular fa-book-open-reader"></i>
+                    <i class="fa-solid fa-book-open-reader"></i>
+                </div>
+                <div class="titulo">
+                    Catalogo
+                </div>
+            </a>
+            <a href="Contacto.html">
+                <div class="icono">
+                    <i class="fa-regular fa-address-book"></i>
+                    <i class="fa-solid fa-address-book"></i>
+                </div>
+                <div class="titulo">
+                    Contacto
+                </div>
+            </a>
+            <a href="Promos.html">
+                <div class="icono">
+                    <i class="fa-regular fa-badge-percent"></i>
+                    <i class="fa-solid fa-badge-percent"></i>
+                </div>
+                <div class="titulo">
+                    Promociones
+                </div>
+            </a>
+            <a href="Blog.html">
+                <div class="icono">
+                    <i class="fa-regular fa-comment-pen"></i>
+                    <i class="fa-solid fa-comment-pen"></i>
+                </div>
+                <div class="titulo">
+                    Blog
+                </div>
+            </a>
+        </nav>
+
+        <!-- Iconos de acciones a la derecha -->
+        <div class="en-acciones">
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-regular fa-cart-shopping"></i></a>
+        </div>
+
+    </header>
+
+    <!---Contenido principal de categoria 4-->
+    <main class="contenido-principal">
+        
+        <!-- Banner de categoria1-->
+        <section class="banner-categoria">
+            <div class="contenedor-imagen">
+                <img src="Recursos/Catalogo/Categoria4/bannercategoria4.png" alt="bannercategoria4">
+            </div>
+        </section>
+        
+        <section class="categoria">
+
+            <div class="contenedor-migasdepan">
+                <nav aria-label="Ruta de navegación">
+                    <ol class="migas">
+                        <li><a href="Catalogo.html">Catálogo de Producto</a></li>
+                        <li class="actual" aria-current="page">Bollería y Panadería Dulce</li>
+                    </ol>
+                </nav>
+            </div>
+
+
+            <div class="contenedor-filtros">
+                <div class="filtro-busqueda">
+                    <input type="text" id="buscar" placeholder="Buscar producto...">
+                </div>
+
+                <div class="filtro-orden">
+                    <select id="ordenar" name="ordenar" aria-label="Ordenar productos">
+                        <option value="predeterminado">Orden predeterminado</option>
+                        <option value="precio-asc">Precio: de menor a mayor</option>
+                        <option value="precio-desc">Precio: de mayor a menor</option>
+                        <option value="az">Nombre: A-Z</option>
+                        <option value="za">Nombre: Z-A</option>
+                        <option value="popular">Más populares</option>
+                        <option value="reciente">Más recientes</option>
+                        <option value="antiguo">Más antiguos</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="contenedor-categoria">
+
+                <div class="producto" data-id="prod0">
+                    
+                    <!-- Carrusel de imágenes -->
+                    <div class="carrusel-producto">
+                        <div class="contenedor-carrusel">
+                            <img src="Recursos/Catalogo/Categoria4/producto0/1.jpg" alt="v1" class="producto-imagen activa">
+                            <img src="Recursos/Catalogo/Categoria4/producto0/2.jpg" alt="v2" class="producto-imagen">
+                            <img src="Recursos/Catalogo/Categoria4/producto0/3.jpg" alt="v3" class="producto-imagen">
+                        </div>
+                        
+                        <!-- Botones navegación -->
+                        <button class="anterior">&#10094;</button>
+                        <button class="siguiente">&#10095;</button>
+
+                        <!--Funciones Me gusta y guardar-->
+                        <button class="megusta"><i class="fa-solid fa-heart"></i></button>
+                        <button class="guardar"><i class="fa-solid fa-bookmark"></i></button>
+                    </div>
+
+                    <div class="producto-info">
+                        <h3>Croissant de Mantequilla</h3>
+                        <p class="descripcion">
+                            Hojaldre dorado y crujiente con sabor tradicional a mantequilla.
+                        </p>
+                        <p class="precio">S/ 5.00</p>
+                        <a href="Prod1Cate4.html" class="boton-vermas">Ver más</a>
+                    </div>
+                </div>
+
+                <div class="producto" data-id="prod1">
+                    
+                    <!-- Carrusel de imágenes -->
+                    <div class="carrusel-producto">
+                        <div class="contenedor-carrusel">
+                            <img src="Recursos/Catalogo/Categoria4/producto1/1.jpg" alt="v1" class="producto-imagen activa">
+                            <img src="Recursos/Catalogo/Categoria4/producto1/2.jpg" alt="v2" class="producto-imagen">
+                            <img src="Recursos/Catalogo/Categoria4/producto1/3.jpg" alt="v3" class="producto-imagen">
+                        </div>
+                        
+                        <!-- Botones navegación -->
+                        <button class="anterior">&#10094;</button>
+                        <button class="siguiente">&#10095;</button>
+
+                        <!--Funciones Me gusta y guardar-->
+                        <button class="megusta"><i class="fa-solid fa-heart"></i></button>
+                        <button class="guardar"><i class="fa-solid fa-bookmark"></i></button>
+                    </div>
+
+                    <div class="producto-info">
+                        <h3>Dona Rellena de Manjar</h3>
+                        <p class="descripcion">
+                            Dona suave rellena con manjar blanco y cubierta de azúcar.
+                        </p>
+                        <p class="precio">S/ 6.00</p>
+                        <a href="Prod1Cate4.html" class="boton-vermas">Ver más</a>
+                    </div>
+                </div>
+
+                <div class="producto" data-id="prod2">
+                    
+                    <!-- Carrusel de imágenes -->
+                    <div class="carrusel-producto">
+                        <div class="contenedor-carrusel">
+                            <img src="Recursos/Catalogo/Categoria4/producto2/1.jpg" alt="v1" class="producto-imagen activa">
+                            <img src="Recursos/Catalogo/Categoria4/producto2/2.jpg" alt="v2" class="producto-imagen">
+                            <img src="Recursos/Catalogo/Categoria4/producto2/3.jpg" alt="v3" class="producto-imagen">
+                        </div>
+                        
+                        <!-- Botones navegación -->
+                        <button class="anterior">&#10094;</button>
+                        <button class="siguiente">&#10095;</button>
+
+                        <!--Funciones Me gusta y guardar-->
+                        <button class="megusta"><i class="fa-solid fa-heart"></i></button>
+                        <button class="guardar"><i class="fa-solid fa-bookmark"></i></button>
+                    </div>
+
+                    <div class="producto-info">
+                        <h3>Rollito de Canela Glaseado</h3>
+                        <p class="descripcion">
+                            Rollo esponjoso con relleno de canela y cobertura de glasé.
+                        </p>
+                        <p class="precio">S/ 11.00</p>
+                        <a href="Prod1Cate4.html" class="boton-vermas">Ver más</a>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--Pie de pagina-->
+    <footer class="pie">
+        <div class="cabecera">
+            <div class="logo">
+                <img src="Recursos/logo.png" alt="logo">
+                <p>Reina del Dulce y Sabor</p>
+                
+            </div>
+            <div class="redes">
+                <span><a href="https://www.facebook.com/people/Reina-del-Dulce-y-Sabor-Pasteler%C3%ADa-Artesanal/61576672571630/"><i class="fa-brands fa-facebook-f"></i></a></span>
+                <span><a href="https://wa.me/qr/HN2QHNCZUMTKE1"><i class="fa-brands fa-whatsapp"></i></a></span>
+                <span><a href="mailto:reinadeldulceysabor@gmail.com"><i class="fa-regular fa-envelope"></i></a></span>
+                <span><a href="https://www.instagram.com/reina.deldulceysabor/?utm_source=ig_web_button_share_sheet"><i class="fa-brands fa-instagram"></i></a></span>
+            </div>
+        </div>
+        <hr>
+        <div class="seccion">
+            <div>
+                <h2>Acerca de Nosotros</h2>
+                <ul>
+                    <li><strong>Horario:</strong></li>
+                    <li>Lunes a sábado: 9:00 a.m. a 7:00 p.m.</li>
+                    <li>Domingo: Solo pedidos programados</li>
+                    <li><strong>Dirección:</strong></li>
+                    <li>Los Angeles 15836, Villa el Salvador, Perú</li>
+                    <li><strong>Contacto:</strong></li>
+                    <li>Telf: +51 902 094 016</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Secciones</h2>
+                <a href="index.html">Inicio</a>
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Catalogo.html">Catálogo</a>
+                <a href="Contacto.html">Contacto</a>
+                <a href="Promos.html">Promociones</a>
+                <a href="Blog.html">Blog</a>
+            </div>
+
+            <div>
+                <h2>Catálogo de Productos</h2>
+                <a href="Categoria1.html">Tortas y Pasteles</a>
+                <a href="Categoria2.html">Cupcakes y Mini Postres</a>
+                <a href="Categoria3.html">Galletas y Alfajores</a>
+                <a href="Categoria4.html">Bollería y Panadería Dulce</a>
+                <a href="Categoria5.html">Postres Tradicionales</a>
+                <a href="Categoria6.html">Cajas y Regalos</a>
+                <a href="Categoria7.html">Eventos Especiales</a>
+            </div>
+            
+            <div>
+                <h2>Información</h2>
+                <a href="">Términos y Condiciones</a>
+                <a href="">Política de Privacidad</a>
+                <a href="">Política de Suscripción de Notificaciones</a>
+                <a href="">Política de Entregas</a>
+                <a href="">Política de Cambios y Devoluciones</a>
+                <p><a href="">Libro de Reclamaciones</a><i class="fa-regular fa-book-open"></i></p>
+            </div>
+
+            <div>
+                <h2>Cuenta</h2>
+                <a href="">Perfil</a>
+                <a href="">Lista de deseos</a>
+                <a href="">Guardado</a>
+                <a href="">Me gusta</a>
+                <a href="">Información personal</a>
+                <a href="">Historial</a>
+            </div>
+
+            
+                
+            <div>
+                <h2>Notificaciones</h2>
+                <form action="">
+                    <input type="text" placeholder="Correo electrónico">
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+        <!-- Derechos reservados -->
+        <div class="derechos">
+            <p><i class="fa-regular fa-copyright"></i>2025 Pastelería Reina del Dulce y Sabor | Realizado por la estudiante: Sandy Tello. Todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+
+    <!--JavaScripT funciones-->
+    <script src="Acciones/AccCate4.js"></script>
+
+</body>
+</html>

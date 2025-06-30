@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReinadelDulceySabor.pe</title>
+    <!--Icon-->
+    <link rel="icon" href="Recursos/logo.png" type="image/x-icon">
+    <!--Fuente de titulos y encabezados-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600;700&display=swap">
+    <!--Estilos link externo-->
+    <link rel="stylesheet" href="Estilos/EsInicio.css">
+    <!--Link de iconos a usar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-regular.css">
+</head>
+<body>
+    <!--Barra superior-->
+    <div class="barra-superior" id="barraSuperior">
+        <p><i class="fa-regular fa-cart-shopping-fast"></i> <a href="Catalogo.html">PROGRAMA TU PEDIDO DESDE NUESTRO CATALOGO</a></p>
+    </div>
+
+    <!--Sección encabezado-->
+    <header class="encabezado">
+        <!-- Logo a la izquierda -->
+        <div class="en-logo">
+            <a href="index.html">
+                <img src="Recursos/logo.png" alt="logo pasteleria">
+            </a>
+        </div>
+        <!-- Menú central con íconos -->
+        <nav class="en-menu">
+            <a href="index.html" class="activo">
+                <div class="icono">
+                    <i class="fa-regular fa-house-blank"></i>
+                    <i class="fa-solid fa-house-blank"></i>
+                </div>
+                <div class="titulo">
+                    Inicio
+                </div>
+            </a>
+            <a href="Nosotros.html">
+                <div class="icono">
+                    <i class="fa-regular fa-users"></i>
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="titulo">
+                    Nosotros
+                </div>
+            </a>
+            <a href="Catalogo.html">
+                <div class="icono">
+                    <i class="fa-regular fa-book-open-reader"></i>
+                    <i class="fa-solid fa-book-open-reader"></i>
+                </div>
+                <div class="titulo">
+                    Catalogo
+                </div>
+            </a>
+            <a href="Contacto.html">
+                <div class="icono">
+                    <i class="fa-regular fa-address-book"></i>
+                    <i class="fa-solid fa-address-book"></i>
+                </div>
+                <div class="titulo">
+                    Contacto
+                </div>
+            </a>
+            <a href="Promos.html">
+                <div class="icono">
+                    <i class="fa-regular fa-badge-percent"></i>
+                    <i class="fa-solid fa-badge-percent"></i>
+                </div>
+                <div class="titulo">
+                    Promociones
+                </div>
+            </a>
+            <a href="Blog.html">
+                <div class="icono">
+                    <i class="fa-regular fa-comment-pen"></i>
+                    <i class="fa-solid fa-comment-pen"></i>
+                </div>
+                <div class="titulo">
+                    Blog
+                </div>
+            </a>
+        </nav>
+
+        <!-- Iconos de acciones a la derecha -->
+        <div class="en-acciones">
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-regular fa-cart-shopping"></i></a>
+        </div>
+
+    </header>
+    
+    <!--Slider de banners automatico-->
+    <section class="slider">
+        <div class="contenedor-slider">
+            <div class="slide activo">
+                <img src="Recursos/Inicio/layer1.png" alt="imagen 1">
+                <div class="texto">
+                    <h2>Detrás del Sabor</h2>
+                    <p>Conoce a nuestros chefs y descubre la pasión que hay en cada plato. Te contamos quiénes somos y por qué amamos cocinar para ti.</p>
+                    <a href="Nosotros.html#chefs" class="boton-vermas">Ver más</a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="Recursos/Inicio/layer2.png" alt="imagen 2">
+                <div class="texto">
+                    <h2>Descubre tu Favorito</h2>
+                    <p>Explora nuestra carta y déjate endulzar por nuestros productos. Hoy te recomendamos nuestra categoría: Pasteles y Tortas</p>
+                    <a href="Categoria1.html" class="boton-vermas">Ver más</a>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <img src="Recursos/Inicio/layer3.png" alt="imagen 3">
+                <div class="texto">
+                    <h2>¿Dónde nos vemos?</h2>
+                    <p>¿Quieres reservar, hacer un pedido o simplemente visitarnos? Aquí tienes todos nuestros datos y cómo encontrarnos fácilmente.</p>
+                    <a href="#seccion3" class="boton-vermas">Ver más</a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="Recursos/Inicio/layer4.png" alt="imagen 4">
+                <div class="texto">
+                    <h2>Sabores en Oferta</h2>
+                    <p>Aprovecha nuestras promociones especiales y disfruta más por menos. ¡Sabor y precio se encuentran aquí!</p>
+                    <a href="#seccion4" class="boton-vermas">Ver más</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botones navegación -->
+        <button class="anterior">&#10094;</button>
+        <button class="siguiente">&#10095;</button>
+
+        <!-- Puntos indicadores -->
+        <div class="puntos">
+            <span class="punto activo" data-index="0"></span>
+            <span class="punto" data-index="1"></span>
+            <span class="punto" data-index="2"></span>
+            <span class="punto" data-index="3"></span>
+        </div>
+    </section>
+
+    <!---Contenido principal de inicio-->
+    <main class="contenido-principal">
+
+        <!-- Bienvenida -->
+        <section class="bienvenida">
+            <div class="contenedor-mensaje">
+                <h2>Bienvenido(a) a Reina del Dulce y Sabor</h2>
+                <p>
+                Endulza tus días con nuestras creaciones artesanales. Cada producto está hecho con amor,
+                tradición y los mejores ingredientes frescos para brindarte momentos inolvidables.
+                </p>
+            </div>
+        </section>
+        
+        <!-- Productos más vendidos -->
+        <section class="masvendidos">
+            <h2>Los más solicitados</h2>
+
+            <div class="contenedor-masvendidos">
+                <div class="producto">
+                    <img src="Recursos/Inicio/producto1.jpg" alt="Pastel de chocolate">
+                    <div class="producto-info">
+                        <h3>Pastel de Chocolate</h3>
+                        <p class="precio">S/ 45.00</p>
+                        <a href="Prod1Cate1.html" class="boton-vermas">Ver más</a>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="Recursos/Inicio/producto2.jpg" alt="Torta de Vainilla">
+                    <div class="producto-info">
+                        <h3>Torta de Vainilla</h3>
+                        <p class="precio">S/ 50.00</p>
+                        <a href="Prod2Cate1" class="boton-vermas">Ver más</a>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="Recursos/Inicio/producto3.jpg" alt="Cupcakes Surtidos">
+                    <div class="producto-info">
+                        <h3>Cupcake de Vainilla</h3>
+                        <p class="precio">S/ 6.00</p>
+                        <a href="Prod1Cate1" class="boton-vermas">Ver más</a>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <img src="Recursos/Inicio/producto4.jpg" alt="Galletas Artesanales">
+                    <div class="producto-info">
+                        <h3>Galletas de Vainilla</h3>
+                        <p class="precio">S/ 8.00</p>
+                        <a href="Prod1Cate3" class="boton-vermas">Ver más</a>
+                    </div>  
+                </div>
+            </div>
+            
+        </section>
+
+        <div class="ver-mas-seccion">
+            <a href="Catalogo.html" class="boton-vermas-seccion">Ver más productos</a>
+        </div>
+
+        <!--Por que elegirnos-->
+        <section class="porque-elegirnos">
+            <h2>¿Por qué elegirnos?</h2>
+
+            <div class="contenedor-razones">
+
+                <div class="razon">
+                    <i class="fa-solid fa-cake-candles"></i>
+                    <h3>Productos Artesanales</h3>
+                    <p>Elaboramos cada dulce con recetas tradicionales y un toque de innovación.</p>
+                </div>
+
+                <div class="razon">
+                    <i class="fa-solid fa-seedling"></i>
+                    <h3>Ingredientes Naturales</h3>
+                    <p>Utilizamos insumos frescos, sin preservantes, cuidando tu salud y el sabor.</p>
+                </div>
+
+                <div class="razon">
+                    <i class="fa-solid fa-face-smile-beam"></i>
+                    <h3>Atención Personalizada</h3>
+                    <p>Nos adaptamos a tus gustos y necesidades para que vivas una experiencia única.</p>
+                </div>
+                
+                <div class="razon">
+                    <i class="fa-solid fa-award"></i>
+                    <h3>Clientes Satisfechos</h3>
+                    <p>Más de 1000 opiniones positivas que respaldan nuestro compromiso con la excelencia.</p>
+                </div>
+            </div>
+        
+        </section>
+
+
+        <!-- Experiencias populares-->
+        <section class="experiencias">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="contenedor-experiencias">
+
+                <div class="experiencia">
+                    <img src="Recursos/Inicio/cliente1.jpg" alt="Maria Flores">
+                    <div class="experiencia-info">
+                        <p>"¡El pastel de chocolate fue una delicia! 100% recomendado, a mis amigos les encanto."</p>
+                        <span>— María F.</span>
+                    </div>
+                    <a href="ex0.html" class="boton-vermas">Ver más</a>
+                </div>
+
+                <div class="experiencia">
+                    <img src="Recursos/Inicio/cliente2.jpg" alt="Juan Porres">
+                    <div class="experiencia-info">
+                        <p>"Excelente atención y entrega puntual. ¡Los cupcakes son hermosos!"</p>
+                        <span>— Juan P.</span>
+                    </div>
+                    <a href="ex1.html" class="boton-vermas">Ver más</a>
+                </div>
+
+                <div class="experiencia">
+                    <img src="Recursos/Inicio/cliente3.jpg" alt="Lucía Morales">
+                    <div class="experiencia-info">
+                        <p>"Pedi una torta personalizada y superó mis expectativas. ¡Mil gracias!"</p>
+                        <span>— Lucía M.</span>
+                    </div>
+                    <a href="ex2.html" class="boton-vermas">Ver más</a>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="ver-mas-seccion">
+            <a href="Blog.html" class="boton-vermas-seccion">Ver más opiniones</a>
+        </div>
+
+        <!--Mensaje de cierre-->
+
+        <section class="visitanos">
+            <h2>¡Visítanos y descubre el sabor de lo artesanal!</h2>
+            <p>Estamos en <strong>Villa el Salvador, Lima</strong>, creando delicias todos los días. Pasea por nuestro local y llévate algo delicioso para compartir con tus seres queridos.</p>
+            <a href="#contacto" class="btn-visitanos">Cómo llegar</a>
+        </section>
+
+
+    </main>
+
+
+
+    <!--Pie de pagina-->
+    <footer class="pie">
+        <div class="cabecera">
+            <div class="logo">
+                <img src="Recursos/logo.png" alt="logo">
+                <p>Reina del Dulce y Sabor</p>
+                
+            </div>
+            <div class="redes">
+                <span><a href="https://www.facebook.com/people/Reina-del-Dulce-y-Sabor-Pasteler%C3%ADa-Artesanal/61576672571630/"><i class="fa-brands fa-facebook-f"></i></a></span>
+                <span><a href="https://wa.me/qr/HN2QHNCZUMTKE1"><i class="fa-brands fa-whatsapp"></i></a></span>
+                <span><a href="mailto:reinadeldulceysabor@gmail.com"><i class="fa-regular fa-envelope"></i></a></span>
+                <span><a href="https://www.instagram.com/reina.deldulceysabor/?utm_source=ig_web_button_share_sheet"><i class="fa-brands fa-instagram"></i></a></span>
+            </div>
+        </div>
+        <hr>
+        <div class="seccion">
+            <div>
+                <h2>Acerca de Nosotros</h2>
+                <ul>
+                    <li><strong>Horario:</strong></li>
+                    <li>Lunes a sábado: 9:00 a.m. a 7:00 p.m.</li>
+                    <li>Domingo: Solo pedidos programados</li>
+                    <li><strong>Dirección:</strong></li>
+                    <li>Los Angeles 15836, Villa el Salvador, Perú</li>
+                    <li><strong>Contacto:</strong></li>
+                    <li>Telf: +51 902 094 016</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Secciones</h2>
+                <a href="index.html">Inicio</a>
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Catalogo.html">Catálogo</a>
+                <a href="Contacto.html">Contacto</a>
+                <a href="Promos.html">Promociones</a>
+                <a href="Blog.html">Blog</a>
+            </div>
+
+            <div>
+                <h2>Catálogo de Productos</h2>
+                <a href="Categoria1.html">Tortas y Pasteles</a>
+                <a href="Categoria2.html">Cupcakes y Mini Postres</a>
+                <a href="Categoria3.html">Galletas y Alfajores</a>
+                <a href="Categoria4.html">Bollería y Panadería Dulce</a>
+                <a href="Categoria5.html">Postres Tradicionales</a>
+                <a href="Categoria6.html">Cajas y Regalos</a>
+                <a href="Categoria7.html">Eventos Especiales</a>
+            </div>
+            
+            <div>
+                <h2>Información</h2>
+                <a href="">Términos y Condiciones</a>
+                <a href="">Política de Privacidad</a>
+                <a href="">Política de Suscripción de Notificaciones</a>
+                <a href="">Política de Entregas</a>
+                <a href="">Política de Cambios y Devoluciones</a>
+                <p><a href="">Libro de Reclamaciones</a><i class="fa-regular fa-book-open"></i></p>
+            </div>
+
+            <div>
+                <h2>Cuenta</h2>
+                <a href="">Perfil</a>
+                <a href="">Lista de deseos</a>
+                <a href="">Guardado</a>
+                <a href="">Me gusta</a>
+                <a href="">Información personal</a>
+                <a href="">Historial</a>
+            </div>
+
+            
+                
+            <div>
+                <h2>Notificaciones</h2>
+                <form action="">
+                    <input type="text" placeholder="Correo electrónico">
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+        <!-- Derechos reservados -->
+        <div class="derechos">
+            <p><i class="fa-regular fa-copyright"></i>2025 Pastelería Reina del Dulce y Sabor | Realizado por la estudiante: Sandy Tello. Todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+
+    <!--JavaScripT funciones-->
+    <script src="Acciones/AccInicio.js"></script>
+
+</body>
+</html>

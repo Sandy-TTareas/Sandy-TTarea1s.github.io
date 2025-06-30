@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReinadelDulceySabor.pe/BlogDulce</title>
+    <!--Icon-->
+    <link rel="icon" href="Recursos/logo.png" type="image/x-icon">
+    <!--Fuente de titulos y encabezados-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600;700&display=swap">
+    <!--Estilos link externo-->
+    <link rel="stylesheet" href="Estilos/EsBlog.css">
+    <!--Link de iconos a usar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-regular.css">
+
+</head>
+<body>
+    <!--Barra superior-->
+    <div class="barra-superior" id="barraSuperior">
+        <p><i class="fa-regular fa-cart-shopping-fast"></i> <a href="Catalogo.html">PROGRAMA TU PEDIDO DESDE NUESTRO CATALOGO</a></p>
+    </div>
+
+    <!--Sección encabezado-->
+    <header class="encabezado">
+        <!-- Logo a la izquierda -->
+        <div class="en-logo">
+            <a href="index.html">
+                <img src="Recursos/logo.png" alt="logo pasteleria">
+            </a>
+        </div>
+        <!-- Menú central con íconos -->
+        <nav class="en-menu">
+            <a href="index.html" class="activo">
+                <div class="icono">
+                    <i class="fa-regular fa-house-blank"></i>
+                    <i class="fa-solid fa-house-blank"></i>
+                </div>
+                <div class="titulo">
+                    Inicio
+                </div>
+            </a>
+            <a href="Nosotros.html">
+                <div class="icono">
+                    <i class="fa-regular fa-users"></i>
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="titulo">
+                    Nosotros
+                </div>
+            </a>
+            <a href="Catalogo.html">
+                <div class="icono">
+                    <i class="fa-regular fa-book-open-reader"></i>
+                    <i class="fa-solid fa-book-open-reader"></i>
+                </div>
+                <div class="titulo">
+                    Catalogo
+                </div>
+            </a>
+            <a href="Contacto.html">
+                <div class="icono">
+                    <i class="fa-regular fa-address-book"></i>
+                    <i class="fa-solid fa-address-book"></i>
+                </div>
+                <div class="titulo">
+                    Contacto
+                </div>
+            </a>
+            <a href="Promos.html">
+                <div class="icono">
+                    <i class="fa-regular fa-badge-percent"></i>
+                    <i class="fa-solid fa-badge-percent"></i>
+                </div>
+                <div class="titulo">
+                    Promociones
+                </div>
+            </a>
+            <a href="Blog.html">
+                <div class="icono">
+                    <i class="fa-regular fa-comment-pen"></i>
+                    <i class="fa-solid fa-comment-pen"></i>
+                </div>
+                <div class="titulo">
+                    Blog
+                </div>
+            </a>
+        </nav>
+
+        <!-- Iconos de acciones a la derecha -->
+        <div class="en-acciones">
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-regular fa-cart-shopping"></i></a>
+        </div>
+
+    </header>
+
+    <!---Contenido principal de blog-->
+    <main class="contenido-principal">
+        <h1 class="titulo-blog">
+            Blog dulce
+            <span class="barra"> | </span>
+            <span class="subtitulo-blog">Recetas, Consejos y Experiencias</span>
+        </h1>
+
+        <section class="recetas">
+            <div class="contenedor-subtitulo">
+                <h2>Recetas</h2>
+            </div>
+            <div class="contenedor-recetas">
+                <div class="receta" id="re0">
+                    <div class="imagen-receta">
+
+                        <img src="Recursos/Blog/Recetas/re0.png" alt="v1" class="producto-imagen">
+
+                        <!--Funciones Me gusta y guardar-->
+                        <button class="megusta"><i class="fa-solid fa-heart"></i></button>
+                        <button class="guardar"><i class="fa-solid fa-bookmark"></i></button>
+                    </div>
+                    
+                    <h3>Drip Cake</h3>
+
+                    <div class="receta-info">
+                        <div class="nivel">
+                            <p><strong><i class="fa-regular fa-badge-check"></i> Nivel:</strong></p>
+                            <div class="nivel-indicador">
+                                <span class="punto activo"></span>
+                                <span class="punto activo"></span>
+                                <span class="punto activo"></span>
+                                <span class="punto"></span>
+                            </div>
+                        </div>
+                        <div class="tiempo">
+                            <p><i class="fa-regular fa-clock"></i> <strong>Tiempo aprox:</strong> 1h 15min</p>
+                        </div>
+                        <div class="descripcion">
+                            <p>Aprende a preparar un Drip Cake elegante y delicioso con cobertura brillante y detalles únicos para sorprender en cualquier ocasión.</p>
+                        </div>
+                    </div>
+
+                    <div class="calificación"><!--Se podrá calificar con estrellas de 1 a 5-->
+                        <span class="estrella" data-valor="1">&#9733;</span>
+                        <span class="estrella" data-valor="2">&#9733;</span>
+                        <span class="estrella" data-valor="3">&#9733;</span>
+                        <span class="estrella" data-valor="4">&#9733;</span>
+                        <span class="estrella" data-valor="5">&#9733;</span>
+                    </div>
+                    <a href="re0.html" class="boton-vermas">Ver más</a>
+                </div>
+
+                <div class="receta" id="re1">
+                    <div class="imagen-receta">
+                        <img src="Recursos/Blog/Recetas/re1.png" alt="Alphabet Cake" class="producto-imagen">
+                        <button class="megusta"><i class="fa-solid fa-heart"></i></button>
+                        <button class="guardar"><i class="fa-solid fa-bookmark"></i></button>
+                    </div>
+                    <h3>Alphabet Cake</h3>
+                    <div class="receta-info">
+                        <div class="nivel">
+                            <p><strong><i class="fa-regular fa-badge-check"></i> Nivel:</strong></p>
+                            <div class="nivel-indicador">
+                                <span class="punto activo"></span>
+                                <span class="punto activo"></span>
+                                <span class="punto activo"></span>
+                                <span class="punto activo"></span>
+                            </div>
+                        </div>
+                        <div class="tiempo">
+                            <p><i class="fa-regular fa-clock"></i> <strong>Tiempo aprox:</strong> 1h 45min</p>
+                        </div>
+                        <div class="descripcion">
+                            <p>Un pastel en forma de letra, ideal para celebraciones. Sorprende con su decoración personalizada y sabores delicados.</p>
+                        </div>
+                    </div>
+                    <div class="calificación">
+                        <span class="estrella" data-valor="1">&#9733;</span>
+                        <span class="estrella" data-valor="2">&#9733;</span>
+                        <span class="estrella" data-valor="3">&#9733;</span>
+                        <span class="estrella" data-valor="4">&#9733;</span>
+                        <span class="estrella" data-valor="5">&#9733;</span>
+                    </div>
+                    <a href="re1.html" class="boton-vermas">Ver más</a>
+                </div>
+
+                <div class="receta" id="re2">
+                    <div class="imagen-receta">
+                        <img src="Recursos/Blog/Recetas/re2.png" alt="Alfajores Navideños" class="producto-imagen">
+                        <button class="megusta"><i class="fa-solid fa-heart"></i></button>
+                        <button class="guardar"><i class="fa-solid fa-bookmark"></i></button>
+                    </div>
+                    <h3>Alfajores Navideños</h3>
+                    <div class="receta-info">
+                        <div class="nivel">
+                            <p><strong><i class="fa-regular fa-badge-check"></i> Nivel:</strong></p>
+                            <div class="nivel-indicador">
+                                <span class="punto activo"></span>
+                                <span class="punto activo"></span>
+                                <span class="punto"></span>
+                                <span class="punto"></span>
+                            </div>
+                        </div>
+                        <div class="tiempo">
+                            <p><i class="fa-regular fa-clock"></i> <strong>Tiempo aprox:</strong> 45min</p>
+                        </div>
+                        <div class="descripcion">
+                            <p>Deliciosos alfajores decorados para la temporada navideña, con relleno de dulce de leche y cobertura de chocolate o azúcar al gusto.</p>
+                        </div>
+                    </div>
+                    <div class="calificación">
+                        <span class="estrella" data-valor="1">&#9733;</span>
+                        <span class="estrella" data-valor="2">&#9733;</span>
+                        <span class="estrella" data-valor="3">&#9733;</span>
+                        <span class="estrella" data-valor="4">&#9733;</span>
+                        <span class="estrella" data-valor="5">&#9733;</span>
+                    </div>
+                    <a href="re2.html" class="boton-vermas">Ver más</a>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="ver-mas-seccion">
+            <a href="Blog.html" class="boton-vermas-seccion">Ver más recetas</a>
+        </div>
+
+        <section class="consejos">
+            <div class="contenedor-subtitulo">
+                <h2>Consejos</h2>
+            </div>
+            <div class="contenedor-consejos">
+                <div class="consejo" id="con0">
+                    <h4 class="titulo-consejo"><i class="fa-solid fa-lightbulb-cfl-on"></i> ¿Cómo conseguir que tu bizcocho sea suave y quede esponjoso?</h4>
+
+                    <div class="contenido-horizontal">
+                        <!-- Imagen a la izquierda -->
+                        <div class="imagen-receta">
+                        <img src="Recursos/Blog/Consejos/1.jpg" alt="v1" class="producto-imagen">
+                        </div>
+
+                        <!-- Descripción a la derecha -->
+                        <div class="descripcion">
+                            <p>¿Alguna vez te ha salido un bizcocho duro, seco o apelmazado? No te preocupes, es más común de lo que parece. Con estos 5 consejos infalibles lograrás un bizcocho aireado, tierno y delicioso cada vez que hornees:</p>
+                            <ol>
+                                <li><strong>Ingredientes a temperatura ambiente:</strong> asegúrate de que los huevos, mantequilla y leche no estén fríos, ya que eso afecta la emulsión de la mezcla.</li>
+                                <li><strong>No sobrebatas la mezcla:</strong> mezclar demasiado puede desarrollar el gluten y hacer el bizcocho más denso.</li>
+                                <li><strong>Incorpora aire:</strong> bate los huevos con el azúcar hasta que doblen su volumen para añadir esponjosidad.</li>
+                                <li><strong>Tamiza la harina:</strong> esto evita grumos y permite una mezcla más ligera y homogénea.</li>
+                                <li><strong>No abras el horno antes de tiempo:</strong> esto puede provocar que el bizcocho se hunda por el cambio de temperatura.</li>
+                            </ol>
+                        </div>
+
+                    </div>
+
+                    <!-- Video y referencia -->
+                    <div class="consejo-media">
+                        <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/WJPLyBYE8RY" 
+                            title="YouTube video tutorial bizcocho esponjoso"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <div class="referencia">
+                        <p>Tutorial completo en <a href="https://youtu.be/WJPLyBYE8RY?si=wlsnhDlhl1fqEtJ_" target="_blank" rel="noopener">YouTube</a></p>
+                    </div>
+                    
+                    <!-- Like/Dislike centrado -->
+                    <div class="calificación centrado">
+                        <button ><i class="fa-regular fa-thumbs-up"></i></button>
+                        <button><i class="fa-regular fa-thumbs-down"></i></button>
+                    </div>
+                    
+                    <!-- Botón Ver Más -->
+                    <a href="con0.html" class="boton-vermas">Ver más</a>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="ver-mas-seccion">
+            <a href="Consejos.html" class="boton-vermas-seccion">Ver más consejos</a>
+        </div>
+
+        <section class="experiencias">
+            <div class="contenedor-subtitulo">
+                <h2>Experiencias</h2>
+            </div>
+            <div class="contenedor-experiencias">
+                <div class="experiencia" id="ex0">
+                    <img src="Recursos/Inicio/cliente1.jpg" alt="Maria Flores">
+                    <div class="experiencia-info">
+                        <p>"¡El pastel de chocolate fue una delicia! 100% recomendado."</p>
+                        <span>— María F.</span>
+                    </div>
+                    <div class="calificación"><!--Se podrá calificar con un like o dislike-->
+                        <button><i class="fa-regular fa-thumbs-up"></i></button>
+                        <button><i class="fa-regular fa-thumbs-down"></i></button>
+                    </div>
+                    <div class="vistas">
+                        <i class="fa-regular fa-eye"></i> 132 vistas
+                    </div>
+                    <div class="comentarios">
+                        <i class="fa-regular fa-comments"></i> 3 comentarios
+                    </div>
+                    <a href="ex0.html" class="boton-vermas">Ver más</a>
+                </div>
+                
+                <div class="experiencia" id="ex1">
+                    <img src="Recursos/Inicio/cliente2.jpg" alt="Juan Porres">
+                    <div class="experiencia-info">
+                        <p>"Excelente atención y entrega puntual. ¡Los cupcakes son hermosos!"</p>
+                        <span>— Juan P.</span>
+                    </div>
+                    <div class="calificación"><!--Se podrá calificar con un like o dislike-->
+                        <button><i class="fa-regular fa-thumbs-up"></i></button>
+                        <button><i class="fa-regular fa-thumbs-down"></i></button>
+                    </div>
+                    <div class="vistas">
+                        <i class="fa-regular fa-eye"></i> 132 vistas
+                    </div>
+                    <div class="comentarios">
+                        <i class="fa-regular fa-comments"></i> 3 comentarios
+                    </div>
+                    <a href="ex1.html" class="boton-vermas">Ver más</a>
+                </div>
+
+                <div class="experiencia" id="ex2">
+                    <img src="Recursos/Inicio/cliente3.jpg" alt="Lucía Morales">
+                    <div class="experiencia-info">
+                        <p>"Pedi una torta personalizada y superó mis expectativas. ¡Mil gracias!"</p>
+                        <span>— Lucía M.</span>
+                    </div>
+                    <div class="calificación"><!--Se podrá calificar con un like o dislike-->
+                        <button><i class="fa-regular fa-thumbs-up"></i></button>
+                        <button><i class="fa-regular fa-thumbs-down"></i></button>
+                    </div>
+                    <div class="vistas">
+                        <i class="fa-regular fa-eye"></i> 132 vistas
+                    </div>
+                    <div class="comentarios">
+                        <i class="fa-regular fa-comments"></i> 3 comentarios
+                    </div>
+                    <a href="ex1.html" class="boton-vermas">Ver más</a>
+                </div>
+            </div>
+            
+        </section>
+        <div class="ver-mas-seccion">
+            <a href="Experiencias.html" class="boton-vermas-seccion">Ver más opiniones</a>
+        </div>
+    </main>
+
+
+    <!--Pie de pagina-->
+    <footer class="pie">
+        <div class="cabecera">
+            <div class="logo">
+                <img src="Recursos/logo.png" alt="logo">
+                <p>Reina del Dulce y Sabor</p>
+                
+            </div>
+            <div class="redes">
+                <span><a href="https://www.facebook.com/people/Reina-del-Dulce-y-Sabor-Pasteler%C3%ADa-Artesanal/61576672571630/"><i class="fa-brands fa-facebook-f"></i></a></span>
+                <span><a href="https://wa.me/qr/HN2QHNCZUMTKE1"><i class="fa-brands fa-whatsapp"></i></a></span>
+                <span><a href="mailto:reinadeldulceysabor@gmail.com"><i class="fa-regular fa-envelope"></i></a></span>
+                <span><a href="https://www.instagram.com/reina.deldulceysabor/?utm_source=ig_web_button_share_sheet"><i class="fa-brands fa-instagram"></i></a></span>
+            </div>
+        </div>
+        <hr>
+        <div class="seccion">
+            <div>
+                <h2>Acerca de Nosotros</h2>
+                <ul>
+                    <li><strong>Horario:</strong></li>
+                    <li>Lunes a sábado: 9:00 a.m. a 7:00 p.m.</li>
+                    <li>Domingo: Solo pedidos programados</li>
+                    <li><strong>Dirección:</strong></li>
+                    <li>Los Angeles 15836, Villa el Salvador, Perú</li>
+                    <li><strong>Contacto:</strong></li>
+                    <li>Telf: +51 902 094 016</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Secciones</h2>
+                <a href="index.html">Inicio</a>
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Catalogo.html">Catálogo</a>
+                <a href="Contacto.html">Contacto</a>
+                <a href="Promos.html">Promociones</a>
+                <a href="Blog.html">Blog</a>
+            </div>
+
+            <div>
+                <h2>Catálogo de Productos</h2>
+                <a href="Categoria1.html">Tortas y Pasteles</a>
+                <a href="Categoria2.html">Cupcakes y Mini Postres</a>
+                <a href="Categoria3.html">Galletas y Alfajores</a>
+                <a href="Categoria4.html">Bollería y Panadería Dulce</a>
+                <a href="Categoria5.html">Postres Tradicionales</a>
+                <a href="Categoria6.html">Cajas y Regalos</a>
+                <a href="Categoria7.html">Eventos Especiales</a>
+            </div>
+            
+            <div>
+                <h2>Información</h2>
+                <a href="">Términos y Condiciones</a>
+                <a href="">Política de Privacidad</a>
+                <a href="">Política de Suscripción de Notificaciones</a>
+                <a href="">Política de Entregas</a>
+                <a href="">Política de Cambios y Devoluciones</a>
+                <p><a href="">Libro de Reclamaciones</a><i class="fa-regular fa-book-open"></i></p>
+            </div>
+
+            <div>
+                <h2>Cuenta</h2>
+                <a href="">Perfil</a>
+                <a href="">Lista de deseos</a>
+                <a href="">Guardado</a>
+                <a href="">Me gusta</a>
+                <a href="">Información personal</a>
+                <a href="">Historial</a>
+            </div>
+
+            
+                
+            <div>
+                <h2>Notificaciones</h2>
+                <form action="">
+                    <input type="text" placeholder="Correo electrónico">
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+        <!-- Derechos reservados -->
+        <div class="derechos">
+            <p><i class="fa-regular fa-copyright"></i>2025 Pastelería Reina del Dulce y Sabor | Realizado por la estudiante: Sandy Tello. Todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+
+    <!--JavaScripT funciones-->
+    <script src="Acciones/AccBlog.js" defer></script>
+
+</body>
+</html>
